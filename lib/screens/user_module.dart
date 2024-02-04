@@ -11,6 +11,9 @@ class UserModule extends StatefulWidget {
 
 class _UserModuleState extends State<UserModule> {
   TextEditingController userName = TextEditingController();
+  TextEditingController email = TextEditingController();
+  TextEditingController phome = TextEditingController();
+  TextEditingController address = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
